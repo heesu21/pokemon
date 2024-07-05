@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="grid place-items-center m-2 font-bold text-4xl ">
+        <div className="grid place-items-center font-bold text-4xl bg-red-400 p-4">
           포켓몬도감
         </div>
         {children}

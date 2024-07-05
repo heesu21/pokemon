@@ -17,8 +17,8 @@ export default async function PokemonDetail({
   const pokemoninfo = await getPokemonDetail();
 
   return (
-    <div className="flex justify-center item-center">
-      <div className="flex flex-col justify-center item-center p-60 m-10 border-solid border-4">
+    <div className="flex justify-center item-center bg-red-400">
+      <div className="flex flex-col justify-center item-center p-60 m-10 border-solid border-4 bg-white">
         <div>
           <Image
             src={pokemoninfo.sprites.front_default}

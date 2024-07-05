@@ -29,7 +29,7 @@ export default function Home() {
         <Link
           href={`PokemonDetail/${pokemon.id}`}
           key={pokemon.id}
-          className="flex items-center text-center mt-2 flex-col hover:border-sky-700 p-8 m-6 border-solid border-2 border-black-600 rounded-md justify-center bg-white"
+          className="flex items-center text-center mt-2 flex-col hover:border-sky-700 p-5 m-4 border-solid border-2 border-black-800 rounded-md justify-center bg-white"
         >
           <Image
             src={pokemon.sprites.front_default}
